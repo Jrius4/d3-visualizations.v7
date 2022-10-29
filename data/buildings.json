@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Burj Khalifa",
+    "height": "350"
+  },
+  {
+    "name": "Shanghai Tower",
+    "height": "263.34"
+  },
+  {
+    "name": "Abraj Al-Bait Clock Tower",
+    "height": "254.04"
+  },
+  {
+    "name": "Ping An Finance Centre",
+    "height": "253.20"
+  },
+  {
+    "name": "Lotte World Tower",
+    "height": "230.16"
+  },
+  {
+    "name": "One World trade Center",
+    "height": "541.3"
+  },
+  {
+    "name": "Guangzhou CTF Finance Center",
+    "height": "530"
+  },
+  {
+    "name": "NSSF Kampala Uganda",
+    "height": "650"
+  }
+]
