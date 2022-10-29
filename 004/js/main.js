@@ -55,8 +55,8 @@ d3.json("../../data/buildings.json")
       .domain([0, d3.max(ySeries)])
       .range([height, 0]);
 
-    var xAxisCall = d3.axisBottom(x).ticks(10);
-    // x label
+    var xAxisCall = d3.axisBottom(x);
+
     g.append("g")
       .attr("class", "x-axis")
       .attr("transform", "translate(0, " + height + ")")
@@ -69,7 +69,7 @@ d3.json("../../data/buildings.json")
 
     var yAxisCall = d3
       .axisLeft(y)
-      .ticks(3)
+      .ticks(5)
       .tickFormat((d) => {
         return d + "m";
       });
